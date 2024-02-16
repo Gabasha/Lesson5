@@ -47,20 +47,38 @@ article p{
 }
 footer{
 	background: #2E2E2E;
+	color: #F2F2F2;
 }
 footer div{
 	text-align: center;
+	margin-left: 15%;
+	margin-bottom: 5%;
+	display: inline-block;
+}
+footer a{
+	text-decoration: none;
+	color: #F2F2F2;
 }
 .article{
 	width: 30%;
 	display: inline-block;
+	border: 1px solid #ccc;
+	color: #707070;;
 }
 .article img{
 	max-width: 483px;
 	width: 100%;
 }
+.article a{
+	text-decoration: none;
+	color: #707070;
+	margin-left: 450px;
+}
 .section{
 	margin-top: 100px;
 	margin-left: 140px;
 	margin-bottom: 100px;
-} 
+}
+.section h1{
+	color: #707070;
+}
